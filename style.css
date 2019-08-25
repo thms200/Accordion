@@ -4,24 +4,28 @@ h3 {
     margin-top:0px;
     color:black;
 }
-.content {
-    border: 1px solid #c5c5c5;
-    padding:0px 10px 0 10px;   
-    height:0px;
-    overflow: scroll
-}
 
 .title {
     display: flex;
     border: 1px solid #c5c5c5; 
     align-items: center;
-    padding:10px;
+    padding: 10px;
     border-radius: 3px;
     background-color:  rgb(246, 246, 246);
 }
 
 .title:hover {
     background-color: #DCDCDC;
+    cursor: pointer;
+}
+
+.title_click {
+    display: flex;
+    border: 1px solid #c5c5c5; 
+    align-items: center;
+    padding: 10px;
+    border-radius: 3px;
+    background-color:  rgb(0, 62, 255); 
     cursor: pointer;
 }
 
@@ -32,4 +36,31 @@ h3 {
     border-bottom: 5px solid transparent;
     border-left: 5px solid black;
 }
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-top: 5px solid white;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.title_Name_changeColor {
+    color: white;
+}
+
+.content {
+    border: 1px solid #c5c5c5;
+    padding: 0px 10px 0 10px;   
+    height: 0px;
+    overflow: scroll;
+    transition: 1s;
+}
+
+.content_change {
+    transition: 1s;
+    height: 200px;
+}
+
+
 
